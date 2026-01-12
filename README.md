@@ -1,6 +1,6 @@
 # Superstore Sales Data Analysis
 
-## Overview
+## Project Overview
 
 This project analyzes Superstore transactional sales data to uncover insights into **customer behavior, product performance, geographic trends, and time-based sales patterns**. The goal is to transform raw sales data into actionable insights that support strategic decision-making across marketing, operations, and inventory planning.
 
@@ -12,6 +12,8 @@ The dataset contains **9,994 records and 21 features**, including customer segme
 
 ### Customer Segmentation
 
+![img](images/percentage_distr_of_customer_type.png)
+
 * The **Consumer segment** represents the largest share of customers and generates the highest total sales.
 * Corporate and Home Office segments contribute meaningfully but at lower volumes.
 
@@ -20,6 +22,8 @@ The dataset contains **9,994 records and 21 features**, including customer segme
 ---
 
 ### Sales by Customer Segment
+
+![img](images/sales_by_customer_type.png)
 
 * Consumer customers contribute the majority of revenue, followed by Corporate and Home Office segments.
 
@@ -38,6 +42,8 @@ The dataset contains **9,994 records and 21 features**, including customer segme
 
 ### Shipping Mode Preference
 
+![img](images/shipping_mode_distribution.png)
+
 * **Standard Class shipping** is used most frequently, far exceeding faster shipping options.
 
 **Insight:** Customers prioritize cost efficiency over speed, presenting opportunities for logistics cost optimization.
@@ -45,6 +51,8 @@ The dataset contains **9,994 records and 21 features**, including customer segme
 ---
 
 ### Geographic Distribution (State & City Level)
+
+![image](images/top_10_cities_by_sales.png)
 
 * **California, New York, and Texas** have the highest customer counts.
 * **New York City and Los Angeles** lead in city-level sales performance.
@@ -55,6 +63,8 @@ The dataset contains **9,994 records and 21 features**, including customer segme
 
 ### Sales by State
 
+![image](images/total_sales_by_state.png)
+
 * California and New York generate the highest total sales.
 * Sales performance varies significantly by state.
 
@@ -63,6 +73,8 @@ The dataset contains **9,994 records and 21 features**, including customer segme
 ---
 
 ### Product Category Performance
+
+![image](images/top_product_category.png)
 
 * **Technology** is the top-performing category, followed by Furniture and Office Supplies.
 * **Phones and Chairs** are the highest-grossing sub-categories.
@@ -73,6 +85,10 @@ The dataset contains **9,994 records and 21 features**, including customer segme
 
 ### Time Series Analysis
 
+![img](images/yearly_sales_bar.png)
+
+![img](images/quarterly_sales_trend.png)
+
 * Year-over-year sales show consistent growth from 2014 to 2017.
 * Sales peak in **Q4**, with the highest monthly sales occurring in **November and December**.
 
@@ -82,10 +98,15 @@ The dataset contains **9,994 records and 21 features**, including customer segme
 
 ### Sales Distribution Visualizations
 
+![image](images/sales_treemap.png)
+
+![img](images/sales_sunburst.png)
+
+
 * **Sunburst and treemap charts** reveal how revenue is distributed across categories, sub-categories, and shipping modes.
 * These visualizations highlight product and logistics combinations that generate the most value.
 
-**Insight:** Technology products shipped via Standard Class dominate sales contribution.
+**Insight:** Technology products shipped via Standard Class account for the majority of sales contribution.
 
 ---
 
@@ -123,8 +144,4 @@ The dataset contains **9,994 records and 21 features**, including customer segme
 
 ## Outcome
 
-This analysis delivers a clear, data-driven understanding of Superstore’s sales performance and provides actionable insights to support **growth strategy, customer retention, and operational optimization**.
-
-* Shorten this further for **recruiter-first scanning**,
-* Add a **“Project Highlights”** section, or
-* Align it with **Wellfound / LinkedIn portfolio language**.
+This analysis provides a clear, data-driven understanding of Superstore’s sales performance and offers actionable insights to support growth strategy, customer retention, and operational optimization.
