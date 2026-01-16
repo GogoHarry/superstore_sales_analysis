@@ -192,7 +192,7 @@ Systematic investigation across six key dimensions:
 *Distribution of customers across Consumer, Corporate, and Home Office segments. The consumer segment represents the majority of the customer base.*
 
 ![Sales by Segment](images/sales_by_customer_type.png)
-*Total sales contribution by customer segment. Consumer segment generates over 50% of total revenue.*
+*Total sales contribution by customer segment. The consumer segment generates over 50% of the total revenue.*
 
 ### Product Performance
 
@@ -221,19 +221,19 @@ Systematic investigation across six key dimensions:
 
 ### Shipping Analysis
 
-![Shipping Mode Distribution](images/shipping_mode_pie.png)
-*Customer preference for shipping modes. Standard Class dominates with nearly 60% of all shipments.*
+![Shipping Mode Distribution](images/shipping_mode_distribution.png)
+*Customer preference for shipping modes. Standard Class dominates, accounting for nearly 60% of all shipments.*
 
-![Shipping Lead Time](images/shipping_lead_time.png)
+![Shipping Lead Time](images/avg_shipping_lead_time.png)
 *Average delivery lead time by shipping mode. Clear trade-off between speed and cost.*
 
-![Profit by Shipping Mode](images/profit_shipping_boxplot.png)
+![Profit by Shipping Mode](images/Profit_by_shipping_mode.png)
 *Profit distribution across shipping modes. Shows variability and outliers in profitability.*
 
-![Shipping by Segment](images/shipping_segment_usage.png)
+![Shipping by Segment](images/shipping_mode_usage_by_cust_segment.png)
 *Shipping mode preferences vary by customer segment, informing operational strategies.*
 
-![Regional Shipping Performance](images/regional_shipping_leadtime.png)
+![Regional Shipping Performance](images/reg_shipping_lead_time_by_mode.png)
 *Regional differences in shipping lead times reveal fulfillment inefficiencies in certain areas.*
 
 ### Time Series Analysis
@@ -241,10 +241,10 @@ Systematic investigation across six key dimensions:
 ![Yearly Sales Trend](images/yearly_sales_trend.png)
 *Year-over-year sales performance from 2014-2017. Strong upward growth trajectory.*
 
-![Quarterly Sales 2017](images/quarterly_sales_2017.png)
+![Quarterly Sales 2017](images/quarterly_sales_trend.png)
 *2017 quarterly sales showing steady growth with Q4 peak.*
 
-![Monthly Sales 2017](images/monthly_sales_2017.png)
+![Monthly Sales 2017](images/monthly_sales_trend.png)
 *Month-by-month sales breakdown for 2017. November shows exceptional performance driven by holiday demand.*
 
 ### Executive Visualizations
@@ -300,7 +300,7 @@ import plotly.graph_objects as go
 - Increase Phones inventory by 25% ahead of Q4
 - Create bundled offers combining Phones with Accessories
 - Expand the Chairs product line with premium options
-- Negotiate better vendor terms for top 5 sub-categories
+- Negotiate better vendor terms for the top 5 sub-categories
 
 **Expected Impact**: $150K+ additional revenue in high-margin products
 
@@ -361,7 +361,7 @@ import plotly.graph_objects as go
 
 **Analytical Constraints**
 - Customer lifetime value inferred from purchase frequency, not predictive modeling
-- Profit analysis doesn't account for overhead costs or full P&L structure
+- Profit analysis doesn't account for overhead costs or a full P&L structure
 - No competitive market analysis or external market factors
 
 **Methodological**
@@ -443,7 +443,7 @@ pip install pandas numpy matplotlib seaborn plotly jupyter
 ### Running the Analysis
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/superstore-sales-analysis.git
+git clone https://github.com/GogoHarry/superstore-sales-analysis.git
 
 # Navigate to project directory
 cd superstore-sales-analysis
@@ -459,7 +459,7 @@ jupyter notebook notebooks/superstore_sales_analysis_notebook.ipynb
 
 ## 👤 Author
 
-**Your Name**
+**Gogo Harrison**
 - GitHub: [GogoHarry](https://github.com/GogoHarry)
 - LinkedIn: [Gogo Harrison](https://linkedin.com/in/gogo-harrison)
 - Email: gogoharrison66@gmail.com
@@ -480,14 +480,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## 📊 Project Status
-
-**Status**: Completed ✅
-
 **Last Updated**: January 2026
-
-**Next Steps**: Implementing predictive modeling and building an interactive dashboard
-
----
 
 *For questions, feedback, or collaboration opportunities, please open an issue or reach out directly.*
