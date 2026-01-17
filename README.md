@@ -227,7 +227,7 @@ Systematic investigation across six key dimensions:
 ![Shipping Lead Time](images/avg_shipping_lead_time.png)
 *Average delivery lead time by shipping mode. Clear trade-off between speed and cost.*
 
-![Profit by Shipping Mode](images/Profit_by_shipping_mode.png)
+![Profit by Shipping Mode](images/Profit_by_shipping_mode.PNG)
 *Profit distribution across shipping modes. Shows variability and outliers in profitability.*
 
 ![Shipping by Segment](images/shipping_mode_usage_by_cust_segment.png)
