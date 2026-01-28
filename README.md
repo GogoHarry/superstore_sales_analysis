@@ -409,29 +409,6 @@ import plotly.graph_objects as go
 
 ---
 
-## 📝 Project Structure
-
-```
-superstore-sales-analysis/
-│
-├── data/
-│   └── Superstore_Sales.csv
-│
-├── notebooks/
-│   └── superstore_sales_analysis_notebook.ipynb
-│
-├── images/
-│   ├── customer_distribution_pie.png
-│   ├── sales_by_segment_bar.png
-│   ├── sales_subcategory_horizontal.png
-│   └── [additional visualization files]
-│
-├── README.md
-└── requirements.txt
-```
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
